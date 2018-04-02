@@ -1,7 +1,7 @@
 {
   "name": "animescroll",
   "version": "1.0.0",
-  "description": "Native scrollTo without dependencies.",
+  "description": "Simple native scrollTo without dependencies.",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/browserify index.js --standalone animeScroll | ./node_modules/.bin/derequire > dist/animescroll.js && npm run minify",
