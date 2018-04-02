@@ -1,0 +1,35 @@
+{
+  "name": "animescroll",
+  "version": "1.0.0",
+  "description": "Native scrollTo without dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/browserify index.js --standalone animeScroll | ./node_modules/.bin/derequire > dist/animescroll.js && npm run minify",
+    "minify": "./node_modules/.bin/browserify index.js --standalone animeScroll | ./node_modules/.bin/derequire | ./node_modules/.bin/uglifyjs -c > dist/animescroll.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icetee/animescroll.git"
+  },
+  "keywords": [
+    "animescroll",
+    "anime",
+    "scroll",
+    "smooth",
+    "scrollTo",
+    "moveTo"
+  ],
+  "author": "Tamás András Horváth <htomy92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icetee/animescroll/issues"
+  },
+  "homepage": "https://github.com/icetee/animescroll#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babelify": "^8.0.0",
+    "derequire": "^2.0.6",
+    "uglifyify": "^4.0.5"
+  }
+}
