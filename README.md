@@ -1,4 +1,4 @@
-# AnimateScroll
+# AnimeScroll
 
 Simple native scrollTo without dependencies.
 
