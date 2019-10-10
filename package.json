@@ -28,8 +28,8 @@
   "homepage": "https://github.com/icetee/animescroll#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babelify": "^8.0.0",
+    "babelify": "^10.0.0",
     "derequire": "^2.0.6",
-    "uglifyify": "^4.0.5"
+    "uglifyify": "^5.0.2"
   }
 }
